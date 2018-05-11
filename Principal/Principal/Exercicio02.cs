@@ -19,6 +19,22 @@ namespace Principal
 
         private void btnprosseguir_Click(object sender, EventArgs e)
         {
+            try
+            {
+                double validarquantidadepordia = Convert.ToDouble(tbquantidadedelitrospordia.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Comando inválido,apenas números");
+                tbquantidadedelitrospordia.Focus();
+                return;
+               
+            }
+            
+            
+            
+            
+            
             int quantidadelitros = Convert.ToInt32(tbquantidadedelitrospordia.Text);
             int quantidadeanos = Convert.ToInt32(tbquatidadedeanos.Text);
             double precoporlitro = Convert.ToDouble(tbvalorpolitro.Text);
