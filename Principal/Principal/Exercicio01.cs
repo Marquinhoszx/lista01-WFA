@@ -19,6 +19,22 @@ namespace Principal
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                double numero01 = Convert.ToDouble(tbnumero.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Comando invalido,tente com um número");
+                tbnumero.Focus();
+                return;
+
+                
+            }
+            
+            
+            
+            
             int numero = Convert.ToInt32(tbnumero.Text);
             int sucessor = numero + 1;
             int antecessor = numero - 1;
