@@ -12,9 +12,7 @@ namespace Principal
 {
     public partial class Exercicio03 : Form
     {
-        double numero01 = 0;
-        double numero02 = 0;
-
+      
         public Exercicio03()
         {
             InitializeComponent();
