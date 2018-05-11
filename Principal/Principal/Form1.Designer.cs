@@ -97,6 +97,7 @@
             this.btncexercicio04.TabIndex = 5;
             this.btncexercicio04.Text = "Exercicio04";
             this.btncexercicio04.UseVisualStyleBackColor = true;
+            this.btncexercicio04.Click += new System.EventHandler(this.btncexercicio04_Click);
             // 
             // btnexercicio03
             // 

@@ -35,6 +35,12 @@ namespace Principal
             exercicio03.Show();
         }
 
+        private void btncexercicio04_Click(object sender, EventArgs e)
+        {
+            Exercicio04 exercicio04 = new Exercicio04();
+            exercicio04.Show();
+        }
+
 
 
 
