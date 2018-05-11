@@ -23,6 +23,12 @@ namespace Principal
             exercicio01.Show();
         }
 
+        private void btnexercicio02_Click(object sender, EventArgs e)
+        {
+            Exercicio02 exercico02 = new Exercicio02();
+            exercico02.Show();
+        }
+
 
 
 
