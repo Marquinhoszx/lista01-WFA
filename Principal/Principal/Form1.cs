@@ -77,6 +77,12 @@ namespace Principal
             exercicio10.Show();
         }
 
+        private void btnexercicio11_Click(object sender, EventArgs e)
+        {
+            Exercicio11 exercicio11 = new Exercicio11();
+            exercicio11.Show();
+        }
+
         
 
 
