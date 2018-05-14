@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercicio09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exercicio09.Designer.cs">
+      <DependentUpon>Exercicio09.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exercicio01.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Exercicio09.resx">
+      <DependentUpon>Exercicio09.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Exercicio01.resx">
       <DependentUpon>Exercicio01.cs</DependentUpon>
     </EmbeddedResource>
