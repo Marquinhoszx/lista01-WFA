@@ -35,7 +35,7 @@ namespace Principal
 
             MessageBox.Show("Brou,Sua idade é: " + idade);
 
-            if (anodenascimento > 2019)
+            if (anodenascimento >= 2019)
             {
                 MessageBox.Show("HAHA se acha o engraçadinho,você não é nem nascido brou");
             }
