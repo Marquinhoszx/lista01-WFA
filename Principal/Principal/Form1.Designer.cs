@@ -70,10 +70,11 @@
             this.btncexercicio07.TabIndex = 2;
             this.btncexercicio07.Text = "Exercicio07";
             this.btncexercicio07.UseVisualStyleBackColor = true;
+            this.btncexercicio07.Click += new System.EventHandler(this.btncexercicio07_Click);
             // 
             // btnexericico06
             // 
-            this.btnexericico06.Location = new System.Drawing.Point(97, 135);
+            this.btnexericico06.Location = new System.Drawing.Point(99, 135);
             this.btnexericico06.Name = "btnexericico06";
             this.btnexericico06.Size = new System.Drawing.Size(109, 39);
             this.btnexericico06.TabIndex = 3;
