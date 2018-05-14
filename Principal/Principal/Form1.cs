@@ -47,6 +47,12 @@ namespace Principal
             exercicio05.Show();
         }
 
+        private void btnexericico06_Click(object sender, EventArgs e)
+        {
+            Exercicio06 exercicio06 = new Exercicio06();
+            exercicio06.Show();
+        }
+
 
 
 
