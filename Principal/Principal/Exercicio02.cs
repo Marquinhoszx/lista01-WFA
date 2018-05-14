@@ -25,13 +25,31 @@ namespace Principal
             }
             catch (Exception)
             {
-                MessageBox.Show("Comando inválido,apenas números");
+                MessageBox.Show(" Comando inválido,apenas números ");
                 tbquantidadedelitrospordia.Focus();
                 return;
                
             }
-            
-            
+            try
+            {
+                double validarquantidadeanos = Convert.ToDouble(tbquatidadedeanos.Text);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show(" Comando inválido,Apenas números ");
+                tbquatidadedeanos.Focus();
+                return;
+            }
+            try
+            {
+                double validarvalorporlitro = Convert.ToDouble(tbvalorpolitro.Text);
+            }
+            catch
+            {
+                MessageBox.Show(" Comando inválido,Apenas números ");
+                tbvalorpolitro.Focus();
+                return;
+            }
             
             
             
