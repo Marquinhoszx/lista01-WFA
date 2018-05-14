@@ -20,12 +20,36 @@ namespace Principal
 
         private void btncGo_Click(object sender, EventArgs e)
         {
+
+            try
+            {
+                double validarnumero01 = Convert.ToDouble(tbnumero1.Text);
+            }
+            catch
+            {
+                MessageBox.Show(" Comando inválido,Apenas números ");
+                tbnumero1.Focus();
+                return;
+            }
+
+            try
+            {
+                double validarnumero02 = Convert.ToDouble(tbnumero2.Text);
+            }
+            catch
+            {
+                MessageBox.Show(" Comando inválido,Apenas números ");
+                tbnumero2.Focus();
+                return;
+            }
             double numero01 = Convert.ToDouble(tbnumero1.Text);
             double numero02 = Convert.ToDouble(tbnumero2.Text);
             double subtracao = numero01 - numero02;
             double dividir = numero01 / numero02;
             double multiplicar = numero01 * numero02;
-            
+
+
+
 
             double soma = numero01 + numero02;
             MessageBox.Show("A soma dos numeros é: " + soma + "\n" +
