@@ -71,21 +71,21 @@ namespace Principal
                             "Anos vivos: " + idade);   
 
 
-            if (diadenascimento < 0)
+            if (diadenascimento <= 0)
             {
                 MessageBox.Show("HAha se acha o engraçadinho?,pois não é xD");
             }
-            else if (diadenascimento > 32)
+            else if (diadenascimento > 33)
             {
-                MessageBox.Show("Brou,não tem dia" + diadenascimento + " no nosso calendário");
+                MessageBox.Show("Brou,não tem dia " + diadenascimento + " no nosso calendário");
             }
 
 
-            if (mesdenascimento < 0)
+            if (mesdenascimento <= 0)
             {
                 MessageBox.Show("HAha se acha o engraçadinho?,pois não é xD");
             }
-            else if (mesdenascimento > 32)
+            else if (mesdenascimento > 13)
             {
                 MessageBox.Show("Brou,não tem mês " + mesdenascimento + " no nosso calendário");
             }
