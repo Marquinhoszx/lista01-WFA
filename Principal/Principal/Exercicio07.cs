@@ -19,19 +19,19 @@ namespace Principal
 
         private void btnroger_Click(object sender, EventArgs e)
         {
-            string roger = tbroger.Text;
+            //string roger = tbroger.Text;
 
-            string arvorezinha = @"     * 
-                                       ***
-                                      *****
-                                     *******
-                                    *********
-                                   ***********
-                                  *************
-                                       |  |
-                                       |  |
-                                                ";
-            lbarvorezinha.Text = arvorezinha;
+//            string arvorezinha = @"     * 
+  //                                     ***
+    //                                  *****
+      //                               *******
+        //                            *********
+          //                         ***********
+            //                      *************
+              //                         |  |
+                //                       |  |
+                  //                              ";
+            //lbarvorezinha.Text = arvorezinha;
 
 
         }
